@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    background-color: rgb(5, 16, 12);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    text-decoration: none;
+}
+#home{
+    display:flex;
+    flex-direction:column ;
+    height: 700px;
+    
+}
+#home::before{
+    content: '';
+    position:absolute;
+    background-image: url('./images.jpg/sthroshni1626344231.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    z-index: -1;
+    opacity: 1;
+}
+.main{
+    border: 1px solid white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    top: 30%;
+    left: 60%;
+    z-index:-1;
+    box-shadow: 3px 4px 6px 7px rgb(17, 6, 6);
+}
+.about
+{
+margin-top: 2%;
+padding: 10px;
+}
+.head
+{
+text-align: center;
+font-size: 40px;
+margin-bottom: 2%;
+}
+
+.head:hover{
+    color: rgb(9, 16, 9);
+    text-shadow: 3px 5px 6px rgb(45, 60, 29);
+}
+.pic{
+    
+    /* display:flex; */
+}
+
+.pic img{
+    width: 400px;
+    height: auto;
+}
+.pic p{
+    text-align: justify;
+    margin: 40px;  
+}
+h3{
+    color: rgb(107, 106, 47);
+}
+.gallery{
+    margin: 50px;
+    margin-left:100px ;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+.gallery img:hover{
+    border:2px ridge rgb(61, 74, 65);
+    box-shadow: 4px 3px 2px 3px rgb(49, 53, 49);
+    width: 350px;
+    height: auto;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    width: 300px;
+    height: auto;
+    border: 2px ridge black;
+    margin: 30px;
+    background: linear-gradient(to top,rgb(124, 120, 120) 50%,white 50%);
+    background-size: 100% 200%;
+    transition:all 0.8s;
+}
+.box img{
+    width: 100%;
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 3px 3px 2px rgb(81, 79, 79);
+}
+.box h1{
+    margin: 10px;
+    color: rgb(18, 31, 24);
+}
+.box p{
+    margin: 10px;
+    text-align: justify;
+}
+body{
+    height: 2000px;
+}
+.input{
+    width: 100%;
+    align-items: center;
+    margin: 10px 
+}
+form{ 
+    left: 35%;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    
+
+}
